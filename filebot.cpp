@@ -44,6 +44,23 @@ int parse_mission() {
     else if (strcmp(message_buffer, "nothing") == 0) {
         m = LS;
     }
+
+    switch(m) {
+    
+    case NOTHING:
+        break;
+    
+    case HOLD:
+        break;
+    
+    case PING:
+
+        break;
+    }
+
+
+
+    return 0;
 }
 
 
